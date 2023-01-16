@@ -1,9 +1,4 @@
-const people = import('./people.js')
-const people1 = import('./people1.js')
-
-people.then(data => {
-
-    console.log(data.age)
-    console.log(data)
-    console.log(data.age)
-})
+// const people2 = import('./people.js')
+const people = require('./people1.js')
+// import people1 from './people1.js'
+console.log(people)
